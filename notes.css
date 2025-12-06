@@ -33,7 +33,42 @@ Margin is outside of the border.
 
 - you can add <style> into html code
 
+-we can use grouping by choosing our selectors in one group :
+for example: 
+h1, h2{
+color: white;
+}
+-we can use child for group
+h1    >.  h2{
+parent.   child
+color: white;
+}
 
 
+- descendant = apply to a descendent of left side
+selector selector{
+    color: white;
+}
+
+-chaining = apply where all selectors are true
+selectorselector{
+    color: white;
+}
+
+-combining combiners: 
+selector selectorselector{
+    color: white;
+}
+
+-static positioning:
+position static
+
+-relative positoning"
+position relative{
+}
+
+-absolutr positioning: if we add absolute positiong it would add nearest to relative position
+
+-fixed position: position relative to top left corner of browser window, if you scroll you window up and down it's gonna stay at top
 */
 
